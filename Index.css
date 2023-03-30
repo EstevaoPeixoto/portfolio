@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    position: fixed;
+    top: 0px;
+    background-color: darkcyan;
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 6px rgb(100, 100, 100, 0.2);
+}
+
+nav section#menu{
+    width: 20%;
+}
+
+section ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    height: 100vh;
+    width: 100vw;
+    background-color: lightblue;
+    display: flex;
+}
+
+header section#dados{
+    background-color: white;
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 150px;
+}
+
+section#botoes{
+    width: 50vw;
+    margin-top: 20px;
+}
+
+section#botoes button{
+    width: 7vw;
+    height: 3vh;
+    border-radius: 10%;
+}
+
+section#imagem img{
+    height: 80vh;
+}
+
+header section#imagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
