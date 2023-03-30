@@ -62,6 +62,6 @@ section#imagem img{
 header section#imagem{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: end;
+    margin-left: -30px;
 }
